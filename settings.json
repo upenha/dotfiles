@@ -95,17 +95,16 @@
         "*.proto": "3d",
         "*.webpack.js": "webpack"
     },
-    "workbench.colorTheme": "Rosé Pine",
     "typescript.updateImportsOnFileMove.enabled": "never",
     "editor.suggestSelection": "first",
     "javascript.updateImportsOnFileMove.enabled": "always",
     "terminal.integrated.defaultProfile.windows": "PowerShell",
-    "discord.detailsEditing": "✏️ {file_name}",
-    "discord.detailsDebugging": "🐛 {file_name}",
+    "discord.detailsEditing": "{file_name}",
+    "discord.detailsDebugging": "{file_name}",
     "discord.detailsIdling": "💤",
-    "discord.largeImage": "📚 {LANG}",
-    "discord.lowerDetailsDebugging": "🐛 {workspace}",
-    "discord.lowerDetailsEditing": "👷 {workspace}",
+    "discord.largeImage": "{lang}",
+    "discord.lowerDetailsDebugging":"{workspace}",
+    "discord.lowerDetailsEditing": "{workspace}",
     "discord.lowerDetailsIdling": "💤",
     "discord.lowerDetailsNoWorkspaceFound": "❌",
     "editor.inlineSuggest.enabled": true,
@@ -125,4 +124,20 @@
     "window.menuBarVisibility": "compact",
     "window.commandCenter": true,
     "workbench.productIconTheme": "fluent-icons",
+    "gitlens.views.branches.avatars": false,
+    "git.openRepositoryInParentFolders": "never",
+    "terminal.integrated.env.windows": {},
+    "symbols.hidesExplorerArrows": false,
+    "cSpell.language": "pt-BR",
+    "terminal.integrated.env.linux": {},
+    "editor.formatOnSave": false,
+    "eslint.enable": true,
+    "workbench.colorTheme": "Rosé Pine",
+    "tailwind-fold.autoFold": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
 }
